@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Red Seat",
+      "price": "1000",
+      "img": "https://media.istockphoto.com/photos/seat-picture-id509287090?k=20&m=509287090&s=612x612&w=0&h=DFku5Qnb7-kX3f_ovEIUQvlCRnDGSC-Eus2g_pT9RYM=",
+      "desc": "A product description is the marketing copy that explains what a product is and why it is worth purchasing. The purpose of a product description is to supply customers with important information about the features and benefits of the product so they are compelled to buy"
+    },
+    {
+      "id": 2,
+      "title": "Office Seat",
+      "price": "5000",
+      "img": "https://wfh.transteel.com/wp-content/uploads/2021/01/Untitled-74.jpg",
+      "desc": "A product description is the marketing copy that explains what a product is and why it is worth purchasing. The purpose of a product description is to supply customers with important information about the features and benefits of the product so they are compelled to buy"
+    },
+    {
+      "id": 3,
+      "title": "Bed Sheet",
+      "price": "6000",
+      "img": "https://www.swayamindia.com/6074-large_default/classy-black-bed-sheet.jpg",
+      "desc": "A product description is the marketing copy that explains what a product is and why it is worth purchasing. The purpose of a product description is to supply customers with important information about the features and benefits of the product so they are compelled to buy"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
