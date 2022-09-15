@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.heading {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+  border-radius: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading1 {
+  color: #3297f0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading4 {
+  font-size: 2rem;
+}
+.link {
+  text-decoration: none;
+}
+.cart {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.item {
+  height: 20vh;
+  width: 80vw;
+  margin: 20px 20px 20px 20px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 2px;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.img {
+  height: 208px;
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  margin-left: 10px;
+}
+
+.icons {
+  display: flex;
+  position: relative;
+  top: 150px;
+  cursor: pointer;
+}
+
+.addformdata {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+}
+
+.addformdata div {
+  font-size: 2rem;
+  margin: 10px;
+}
+.addformdata input {
+  font-size: 2rem;
+  margin: 10px;
+}
+.addformdata button {
+  font-size: 2rem;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editform {
+  height: 200px;
+  width: 800px;
+}
+
+.filter {
+  height: 30px;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 70%;
+  padding-top: 10px;
+}
+.filter select {
+  font-size: 1rem;
 }
